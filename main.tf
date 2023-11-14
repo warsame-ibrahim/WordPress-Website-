@@ -13,3 +13,9 @@ terraform {
     profile = "warsame"
   }
 }
+
+#Authenticate with AWS
+provider "aws" {
+region = "us-east-2"
+profile = "ckjits"
+}
